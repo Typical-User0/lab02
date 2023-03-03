@@ -1,6 +1,11 @@
 # Prerequisites
 *.d
 
+*build*/
+*install*/
+*.swp
+.idea/
+
 # Compiled Object files
 *.slo
 *.lo
