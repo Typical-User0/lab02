@@ -2,14 +2,16 @@
 #include <string>
 
 
-using namespace std
 
 
 int main () {
-    string name;
+    // user's name
+    std::string name;
 
-    cin >> name;
+    // read user's name from stdin 
+    std::cin >> name;
 
-    cout << "Hello world from " << name << endl;
+    // greeting from user
+    std::cout << "Hello world from " << name << std::endl;
     return 0; 
 }
