@@ -11,7 +11,7 @@ int main () {
     // read user's name from stdin 
     std::cin >> name;
 
-    // greeting from user
+    // greet world from user
     std::cout << "Hello world from " << name << std::endl;
     return 0; 
 }
